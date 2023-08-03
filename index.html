@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Learn CSS Colors</h1>
+    </div>
+    <p>Header: Linear-Gradient</p>
+    <p><i>"deg" adjusts on what degree the colors are bent/angled</i></p>
+    <p><i>border of the headers are 7px wide, ridge style and white</i></p>
+    <h2>Background: Black (rgb 0,0,0)</h2>
+    <h1 class="secondh">Basic Colors:</h1>
+    <div class="bcolors">   
+        <div class="red"></div>
+        <p>Red: rgb (255,0,0)</p>
+        <p><i>this color also has a box-shadow property, which gives it shadows on the sides</i></p>
+        <p><i>the first value is for offsetX, which changes it's offset on the <mark>X</mark> axis,
+            <br> the second value, offsetY, changes it's offset on the <mark>Y</mark> axis 
+            <br> you can also change the color of the shadow, in this case I used <b style="color: pink;">pink</b>.</i></p>
+        <div class="green"></div>
+        <p>Green: rgb (0,127,0)</p>
+        <p><i>as you can see, box-shadow on this color is different. it is more blurred, because I added the third value, which is called <mark>blurRadius</mark> 
+            <br></i></p>
+        <div class="blue"></div>
+        <p>Blue: rgb (0,0,255)</p>
+        <p>If you want spread the shadow out further, you can add the third "spreadRadius" value</p>
+        <div class="yellow"></div>
+        <p>Yellow: rgb (255,255,0)</p>
+        <hr>
+        <h3>255 is the maximum value and 127 is a half in the "rgb" function, you can also use actual color names (e.g: red, blue, yellow etc) </h3>
+        <hr>
+    </div>
+    <div class="hsls">
+        <h3 style="color: yellow;"><i>You can also use the "hsl" function, where first value is for hue, second value is for saturation, and the third one is for lightness</i></h3>
+        <p><i><b>to make the color more or less opaque, we can use the "opacity" property</b></i></p>
+        <hr>
+        <br>
+        <div class="hsl1"></div>
+        <p>230, 100%, 70%, opacity: Default</p>
+        <div class="hsl2"></div>
+        <p>270, 100%, 50%, opacity: 0.7</p>
+        <div class="hsl3"></div>
+        <p>300, 70%, 40%, opacity: 0.5</p>
+        <div class="hsl4"></div>
+        <p>300, 100%, 50%, opacity: 0.1</p>
+    </div>
+</body>
+</html>
